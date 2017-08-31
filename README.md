@@ -1,7 +1,8 @@
 # README
 
-This repo contains sample code for dealing with parallel requests to modify
-your props over multiple components in the render lifecycle.
+This repo contains sample code and a description of how to deal with multiple
+components competing to update the same state object in your hierarchy at the
+same time (such as in componentDidMount).
 
 To demonstrate the problem, consider the following object:
 
